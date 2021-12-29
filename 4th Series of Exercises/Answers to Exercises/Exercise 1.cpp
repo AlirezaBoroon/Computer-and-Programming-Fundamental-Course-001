@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-// Here we declare and define sum of digits function.
+// Here we declare and define sum_digits function.
 int sum_digits(int num){
-    int sum_of_digits= 0;// This variable stores the sum.
+    int sum_of_digits= 0;// This variable stores the summation.
     while(num>= 1){
         int digit= num% 10;
         // digit variable is actually the digit of the number.
