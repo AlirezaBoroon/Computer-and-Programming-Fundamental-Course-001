@@ -11,3 +11,7 @@
 # 	:computer: Third series of Exercises uploaded on Dec 17, 2021:
 * - [x] Repetition and Loops Exercises
 <hr>
+
+# 	:computer: Fourth series of Exercises uploaded on Dec 29, 2021:
+* - [x] Functions in C++
+<hr>
