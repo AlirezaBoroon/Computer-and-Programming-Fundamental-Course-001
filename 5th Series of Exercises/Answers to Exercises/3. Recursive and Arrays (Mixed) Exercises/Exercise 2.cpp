@@ -3,6 +3,7 @@ using namespace std;
 int s;
 // "s" variable is declared globally to use it everywhere.
 char * UpperLetter(char arr[], char arr2[], int i=0){
+// or: string UpperLetter(char arr[]...
     if (i == s)
          return arr2;
     else
@@ -19,6 +20,7 @@ int main(){
         cin>> n[i];
     }
     char * inversed= UpperLetter(n, m);
+    // or: string inversed= Upper...
     cout<< "The word's been reversed and is: ";
     for (int i = 0; i< s; i++){
         cout << inversed[i];
