@@ -15,7 +15,9 @@ int main (){
         }
     }
     // changing the array:
-    for (int i = 1; i < r; i++){
+    for (int i = 0; i < r; i++){
+        if (i== 0)
+            continue;
         for (int j = 0; j < c; j++){
             arr[i][j]= arr[i][j]+ arr[0][j];
         }
